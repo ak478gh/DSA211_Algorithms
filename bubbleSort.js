@@ -6,9 +6,11 @@ function swap(arr, i, j) {
     arr[j] = temp;
 }
 
-let arr = [1, 3, 4, 6, 5];
+let arr = [1, 5, 3, 4, 6];
 let n = arr.length;
+console.log('arr: ', arr)
 
+// Sorting Algorithm:
 function bubbleSort(n,arr) {
     for(let i=0;i<n-1;i++) {
         let swapped = false;

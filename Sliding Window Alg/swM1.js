@@ -52,3 +52,8 @@ for(let i=0;i<n-k+1;i++) {
         maxSum = sum;
     }
 }
+
+let queue = ["swanand", "maya", "bob", "ronaldo"];
+
+let div = document.getElementById('fun')
+div.innerText = queue;
